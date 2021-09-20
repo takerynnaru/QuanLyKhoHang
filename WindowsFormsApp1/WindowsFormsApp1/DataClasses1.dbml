@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="khohang" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-1NL3835\SQLEXPRESS;Initial Catalog=khohang;User ID=sa" SettingsObjectName="WindowsFormsApp1.Properties.Settings" SettingsPropertyName="khohangConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.phieunhap" Member="phieunhaps">
+    <Type Name="phieunhap">
+      <Column Name="mapn" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tenpn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaylap" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="tongtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="mancc" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="manv" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
